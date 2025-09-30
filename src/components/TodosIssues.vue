@@ -22,7 +22,7 @@
     <ul v-if="issues.length">
       <li v-for="(issue, i) in issues" :key="issue.id">
         {{ issue.title }}
-        <button @click="closeIssue(i)">Close</button>
+        <button @click="closeIssue(i)">Done</button>
       </li>
     </ul>
 
@@ -110,4 +110,3 @@ export default {
   },
 };
 </script>
-
